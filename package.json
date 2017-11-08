@@ -12,7 +12,8 @@
     "deploy": "ng build --aot -prod && git push origin master && git push heroku master"
   },
   "engines": {
-    "node": "6.11.1"
+    "node": "6.11.1",
+    "npm": "3.10.9"
   },
   "private": true,
   "dependencies": {
